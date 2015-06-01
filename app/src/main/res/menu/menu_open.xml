@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dell.batapp.OpenActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_item"
+        android:title="@string/edit"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/edit" />
+
+    <item
+        android:id="@+id/delete_item"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/delete" />
+
+    <item
+        android:id="@+id/call_item"
+        android:title="@string/call"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/call" />
+
+    <item
+        android:id="@+id/exit_item"
+        android:title="@string/exit"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/exit" />
+
+
+</menu>

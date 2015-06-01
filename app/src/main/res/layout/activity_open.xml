@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:paddingTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:src="@drawable/criminal" android:contentDescription="@string/criminalimage"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:layout_weight="0.39" />
+
+        <TextView
+            android:id="@+id/textviewname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nametext"
+            android:textSize="12dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textviewage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agetext"
+            android:textSize="12dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textviewgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gendertext"
+            android:textSize="12dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textviewcrimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crimestext"
+        android:textSize="12dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textviewlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locationtext"
+        android:textSize="12dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+</LinearLayout>
